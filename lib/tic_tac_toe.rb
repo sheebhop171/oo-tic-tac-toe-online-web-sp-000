@@ -38,7 +38,8 @@ class TicTacToe
       #binding.pry
     if index == " "
       false
-    else true
+    else
+      true
   end
 
 
