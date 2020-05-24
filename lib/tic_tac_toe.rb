@@ -37,7 +37,7 @@ class TicTacToe
   else board[index] != " "
     false
   end
-    
+
   end
 
 
