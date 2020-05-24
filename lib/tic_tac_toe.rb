@@ -30,7 +30,7 @@ class TicTacToe
   end
 
   def move(index, token)
-    binding.pry
+    #binding.pry
     @board[index] = token
   end
 
