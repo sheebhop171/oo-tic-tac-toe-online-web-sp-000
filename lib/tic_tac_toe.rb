@@ -36,9 +36,9 @@ class TicTacToe
 
   def position_taken?(index)
     #  binding.pry
-    if index == "X" || index == "O"
+    if board[index] == "X" || board[index] == "O"
       true
-    else index != " "
+    else board[index] != " "
       false
     end
   end
