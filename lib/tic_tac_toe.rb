@@ -63,10 +63,10 @@ class TicTacToe
   end
 
   def turn
-    binding.pry
     puts "Please enter 1-9:" #ask for user input
     user_input = gets.strip #gets user input
     index = input_to_index(user_input) #translate input into idex
+    binding.pry
     if valid_move?(index) #checks if move is valid
       move(index, token) # if move is valid, make move
       display_board #display board
