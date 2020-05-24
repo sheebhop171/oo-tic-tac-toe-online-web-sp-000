@@ -103,7 +103,19 @@ class TicTacToe
         @board[winning_location]
       else
         nil
-      end 
+      end
+  end
+
+  def play
+    turn until over?
+  if winner == "X"
+    puts "Congratulations X!"
+  elsif winner == "O"
+    puts "Congratulations O!"
+  else
+    puts "Cat's Game!"
+  end
+
   end
 
 end
