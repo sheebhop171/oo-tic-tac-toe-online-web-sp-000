@@ -97,7 +97,13 @@ class TicTacToe
   end
 
   def winner
-    
+    win_combination = won?
+  if win_combination
+    winning_location = win_combination[0]
+    @board[winning_location]
+  else
+    nil
+  end
 
   end
 
