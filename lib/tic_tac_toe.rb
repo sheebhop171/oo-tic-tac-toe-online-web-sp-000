@@ -30,8 +30,7 @@ class TicTacToe
   end
 
   def move(board, position)
-    binding.pry
-
+    board
   end
 
   def position_taken?(board, index)
