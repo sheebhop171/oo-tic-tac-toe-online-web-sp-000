@@ -28,6 +28,7 @@ class TicTacToe
   end
 
   def move(board, position)
+    binding.pry
 
   end
 
@@ -35,7 +36,7 @@ class TicTacToe
     if board[index] == "X" || board[index] == "O"
     else
       board[index] != " "
-    end 
+    end
   end
 
 
