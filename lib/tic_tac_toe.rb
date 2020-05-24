@@ -71,7 +71,7 @@ class TicTacToe
       move(index, token)
       display_board(@board)
     else
-      turn(board)
+      turn(@board)
     end
   end
 
