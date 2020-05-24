@@ -38,7 +38,7 @@ class TicTacToe
     if index == "X" || index == "O"
       true
     else
-      index != " "
+      index = " "
       false
     end
   end
