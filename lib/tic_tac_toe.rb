@@ -88,4 +88,8 @@ class TicTacToe
     @board.none? { | position | position == " "}
   end
 
+  def draw?
+
+  end
+
 end
