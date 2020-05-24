@@ -53,8 +53,6 @@ class TicTacToe
   def turn_count(board)
   counter = 0
   9 - board.count(" ")
-    
-
   end
 
 
