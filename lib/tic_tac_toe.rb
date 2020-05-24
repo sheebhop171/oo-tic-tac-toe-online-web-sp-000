@@ -30,7 +30,7 @@ class TicTacToe
   end
 
   def move(board, position)
-    @board << position
+    @board[index] << position
   end
 
   def position_taken?(board, index)
