@@ -34,11 +34,11 @@ class TicTacToe
     @board[index] = token
   end
 
-  def position_taken?(user_input)
+  def position_taken?(index)
       binding.pry
-    if user_input == "X" || user_input == "O"
+    if index == "X" || index == "O"
       true
-    else user_input != " "
+    else index != " "
       false
     end
   end
