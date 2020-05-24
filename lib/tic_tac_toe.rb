@@ -50,6 +50,11 @@ class TicTacToe
     end
   end
 
+  def turn_count(board)
+    counter = 0
+    9 - @board.count(" ")
+  end
+
   def turn(board)
     puts "Please enter 1-9:"
     input = gets.strip
@@ -62,10 +67,7 @@ class TicTacToe
     end
   end
 
-  def turn_count(board)
-    counter = 0
-    9 - @board.count(" ")
-  end
+  
 
 
 end
