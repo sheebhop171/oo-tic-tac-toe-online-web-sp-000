@@ -50,6 +50,18 @@ class TicTacToe
     end
   end
 
+  def turn(board)
+    puts "Please enter 1-9:"
+    input = gets.strip
+    index = input_to_index(input)
+    if valid_move?(board,index)
+      move(board,index,current_player(board))
+      display_board(board)
+    else
+      turn(board)
+    end  
+  end
+
   def turn_count(board)
     counter = 0
     9 - @board.count(" ")
