@@ -50,12 +50,10 @@ class TicTacToe
     end
   end
 
-  def turn_count(index)
-    if @board[index] == "X" || @board[index] == "O"
-   true
- else @board[index] != " "
-   false
- end
+  def turn_count(board)
+  counter = 0
+  9 - board.count(" ")
+    
 
   end
 
