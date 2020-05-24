@@ -38,7 +38,7 @@ class TicTacToe
       binding.pry
     if user_input == "X" || user_input == "O"
       true
-    else index != " "
+    else user_input != " "
       false
     end
   end
