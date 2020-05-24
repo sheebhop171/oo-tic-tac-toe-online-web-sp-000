@@ -96,4 +96,9 @@ class TicTacToe
     won? || draw?
   end
 
+  def winner
+    
+    
+  end
+
 end
